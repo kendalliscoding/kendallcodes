@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kendallcodes.com/static/css/main.f1be0eb9.css",
-    "main.js": "/kendallcodes.com/static/js/main.b02bba74.js",
-    "static/js/787.a85d61bd.chunk.js": "/kendallcodes.com/static/js/787.a85d61bd.chunk.js",
-    "index.html": "/kendallcodes.com/index.html",
-    "main.f1be0eb9.css.map": "/kendallcodes.com/static/css/main.f1be0eb9.css.map",
-    "main.b02bba74.js.map": "/kendallcodes.com/static/js/main.b02bba74.js.map",
-    "787.a85d61bd.chunk.js.map": "/kendallcodes.com/static/js/787.a85d61bd.chunk.js.map"
+    "main.css": "/static/css/main.f1be0eb9.css",
+    "main.js": "/static/js/main.2434da4a.js",
+    "static/js/787.a85d61bd.chunk.js": "/static/js/787.a85d61bd.chunk.js",
+    "index.html": "/index.html",
+    "main.f1be0eb9.css.map": "/static/css/main.f1be0eb9.css.map",
+    "main.2434da4a.js.map": "/static/js/main.2434da4a.js.map",
+    "787.a85d61bd.chunk.js.map": "/static/js/787.a85d61bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1be0eb9.css",
-    "static/js/main.b02bba74.js"
+    "static/js/main.2434da4a.js"
   ]
 }
