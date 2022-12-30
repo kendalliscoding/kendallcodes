@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kendalliscoding.github.io/static/css/main.f1be0eb9.css",
+    "main.js": "/kendalliscoding.github.io/static/js/main.8e3959c5.js",
+    "static/js/787.a85d61bd.chunk.js": "/kendalliscoding.github.io/static/js/787.a85d61bd.chunk.js",
+    "index.html": "/kendalliscoding.github.io/index.html",
+    "main.f1be0eb9.css.map": "/kendalliscoding.github.io/static/css/main.f1be0eb9.css.map",
+    "main.8e3959c5.js.map": "/kendalliscoding.github.io/static/js/main.8e3959c5.js.map",
+    "787.a85d61bd.chunk.js.map": "/kendalliscoding.github.io/static/js/787.a85d61bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1be0eb9.css",
+    "static/js/main.8e3959c5.js"
+  ]
+}
