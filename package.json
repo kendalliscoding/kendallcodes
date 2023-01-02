@@ -1,7 +1,7 @@
 {
   "name": "kendallcodes",
   "version": "0.1.0",
-  "homepage": "kendalliscoding.github.io",
+  "homepage": "http://kendallcodes.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
