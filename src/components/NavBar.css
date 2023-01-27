@@ -1,0 +1,11 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(202, 243, 196, 0.353);
+}
