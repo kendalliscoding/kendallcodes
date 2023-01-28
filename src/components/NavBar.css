@@ -1,11 +1,30 @@
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     margin-top: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
     position: fixed;
     width: 100vw;
     background-color: rgba(202, 243, 196, 0.353);
+}
+
+a {
+    font-family: Arial, Trebuchet MS, sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin: 5px;
+    /* font-weight: bold; */
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: rgba(188, 194, 236, 0.785);
+}
+
+a:hover {
+    padding: 17px;
+    font-size: 15px;
+    border-radius: 5px;
 }
