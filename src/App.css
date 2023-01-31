@@ -2,16 +2,7 @@ body {
   background-image: linear-gradient(to bottom right, rgb(172, 210, 231), rgb(245, 157, 192));
   height:100vh;
   width:100vw;
-
-}
-
-main {
-  background-image: linear-gradient(to bottom, rgba(254, 241, 254, 0.263), rgba(209, 247, 230, 0.457));
-  width: 80vw;
-  min-width: 500px;
-  height: 100vh;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
 }
 
 
