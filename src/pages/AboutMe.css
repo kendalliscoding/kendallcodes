@@ -1,3 +1,7 @@
 .entries {
     margin: 100px 30px 30px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
