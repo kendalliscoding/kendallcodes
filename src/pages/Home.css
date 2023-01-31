@@ -39,7 +39,7 @@ main {
 .title_intro {
     text-align: center;
     font-family: Arial, Trebuchet MS, sans-serif;
-    font-size: 6.5vw;
+    font-size: calc(30px + 4vw);
     font-weight: bold;
     font-style: italic;
     white-space: nowrap;
