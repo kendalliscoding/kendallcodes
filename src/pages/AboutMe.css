@@ -1,7 +1,13 @@
 .entries {
     margin: 100px 30px 30px 30px;
+    position: relative;
+    height: 80vh;
+    border: solid;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    z-index: 100;
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
 }

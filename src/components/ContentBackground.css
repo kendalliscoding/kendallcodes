@@ -1,0 +1,11 @@
+.content-background {
+    position: fixed;
+    margin-top: 0;
+    background-image: linear-gradient(to bottom, rgba(254, 241, 254, 0.263), rgba(209, 247, 230, 0.457));
+    width: 80vw;
+    min-width: 500px;
+    height: 100vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    z-index: -10;
+}
