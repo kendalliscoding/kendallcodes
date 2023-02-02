@@ -1,9 +1,10 @@
 .entry {
     background-color: rgba(222, 156, 200, 0.399);
+    margin: 20px;
     border-radius: 5px;
-    box-shadow: 4px 4px;
-    width: 15vw;
-    height: 15vw;
+    box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
+    width: 20vw;
+    height: 20vw;
     min-width: 150px;
     min-height: 150px;
     overflow: hidden;
@@ -14,7 +15,7 @@
     font-weight: bold;
     font-style: italic;
     font-variant: small-caps;
-    font-size: 3em;
+    font-size: calc(1em + 2vw);
     text-align: right;
     margin: 0px 10px;
     position: relative;
