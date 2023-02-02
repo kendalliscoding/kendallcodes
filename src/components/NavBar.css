@@ -1,16 +1,18 @@
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-top: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    width: 76vw;
     position: fixed;
-    width: 100vw;
     background-color: rgba(202, 243, 196, 0.353);
 }
 
-a {
+nav a {
     font-family: Arial, Trebuchet MS, sans-serif;
     font-size: 12px;
     letter-spacing: 3px;
@@ -23,8 +25,12 @@ a {
     background-color: rgba(188, 194, 236, 0.785);
 }
 
-a:hover {
-    padding: 17px;
-    font-size: 15px;
-    border-radius: 5px;
+nav a:hover {
+    background-color: rgba(221, 232, 165, 0.785);
+
+}
+
+.active {
+    font-weight: bold;
+    color: rgba(205, 60, 241, 0.861)
 }
