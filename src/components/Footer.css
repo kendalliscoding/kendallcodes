@@ -1,0 +1,11 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 94vw;
+    padding: 2px 3vw 2px 3vw;
+    background-color: rgba(211, 157, 236, 0.794);
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.8;
+    color: rgb(239, 252, 218);
+}
