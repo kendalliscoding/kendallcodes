@@ -19,7 +19,7 @@ main {
     z-index: -1;
     opacity: 0;
     animation-name: fade-in;
-    animation-duration: 4s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
