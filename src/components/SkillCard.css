@@ -1,4 +1,4 @@
-.entry {
+.card {
     background-color: rgba(222, 156, 200, 0.399);
     margin: 20px;
     border-radius: 5px;
@@ -10,7 +10,7 @@
     overflow: hidden;
 }
 
-.entry-title {
+.card-title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-style: italic;
@@ -23,7 +23,7 @@
     transition: top 1s;
 }
 
-.entry-desc {
+.card-desc {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px 10px ;
     position: relative;
@@ -36,12 +36,12 @@
     overflow: scroll;
 }
 
-.entry:hover .entry-title {
+.card:hover .card-title {
     top: 0;
     transition: top 1s;
 }
 
-.entry:hover .entry-desc {
+.card:hover .card-desc {
     top: 0;
     opacity: 1;
     transition: top 1s, opacity 3s;
