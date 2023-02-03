@@ -1,0 +1,49 @@
+.entry {
+    background-color: rgba(222, 156, 200, 0.399);
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
+    width: 20vw;
+    height: 20vw;
+    min-width: 150px;
+    min-height: 150px;
+    overflow: hidden;
+}
+
+.entry-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: calc(1em + 2vw);
+    text-align: right;
+    margin: 0px 10px;
+    position: relative;
+    top: 50%;
+    transition: top 1s;
+}
+
+.entry-desc {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px ;
+    position: relative;
+    top: 100%;
+    opacity: 0;
+    transition: top 1s, opacity 2s;
+}
+
+.entry:hover {
+    overflow: scroll;
+}
+
+.entry:hover .entry-title {
+    top: 0;
+    transition: top 1s;
+}
+
+.entry:hover .entry-desc {
+    top: 0;
+    opacity: 1;
+    transition: top 1s, opacity 3s;
+
+}

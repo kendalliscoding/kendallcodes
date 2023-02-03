@@ -10,6 +10,7 @@ nav {
     width: 76vw;
     position: fixed;
     background-color: rgba(202, 243, 196, 0.353);
+    z-index: 999;
 }
 
 nav a {
@@ -27,7 +28,7 @@ nav a {
 
 nav a:hover {
     background-color: rgba(221, 232, 165, 0.785);
-
+    transition: background-color 0.7s;
 }
 
 .active {
