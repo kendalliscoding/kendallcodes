@@ -32,18 +32,20 @@
     transition: top 1s, opacity 2s;
 }
 
-.entry:hover {
+.card:hover {
     overflow: scroll;
+    scroll-snap-type: mandatory;
 }
 
 .card:hover .card-title {
     top: 0;
     transition: top 1s;
+    
 }
 
 .card:hover .card-desc {
     top: 0;
     opacity: 1;
     transition: top 1s, opacity 3s;
-
+    scroll-snap-align: end;
 }
