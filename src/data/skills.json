@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Python",
+        "description": "Python is the language I learned to code with, and it has remained my favorite ever since. <3 I have used Python to build an interface library, write scripts, analyze data with Pandas, and I even built a game with PyGame as my first project. I really enjoy coding in Python because its simple yet powerful and it has really great community support. "
+    },
+    {
+        "title": "Pytest",
+        "description": "Pytest is my favorite Python test framework. I love it's functional approach, the clear test results formatting, and its fixtures feature!"
+    },
+    {
+        "title": "HTML CSS JS",
+        "description": "I grew an interest in web development after playing around with my tumblr theme's source code back when I was in high school. Years later, after being accepted into my university's CS program, I began teaching myself how to build a website with HTML, CSS, and JavaScript. I deployed my first website in 2017 after buying a domain and learning how to host a website with github. "
+    },
+    {
+        "title": "roller skater",
+        "description": "I picked up roller skating as a pandemic hobby. Some of my favorite moves are crazy legs, dips, and toe spins!"
+    }
+]
