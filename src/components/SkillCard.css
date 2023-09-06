@@ -3,12 +3,30 @@
     margin: 20px;
     border-radius: 5px;
     box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
-    width: 20vw;
     height: 20vw;
     min-width: 150px;
     min-height: 150px;
     overflow: hidden;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s, height 0.5s;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: [title] 1fr [description] 3fr;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: [description] 3fr [title] 1fr;
+    grid-template-rows: auto;
+}
+
+.left .card-title {
+    text-align: right;
+}
+
+.right .card-title {
+    text-align: left;
 }
 
 .card-title {
@@ -17,32 +35,36 @@
     font-style: italic;
     font-variant: small-caps;
     font-size: calc(1em + 2vw);
-    text-align: right;
+    grid-column: title;
+    grid-row: 1;
     margin: 0px 10px 20px;
     position: relative;
-    top: 50%;
-    transition: top 1s;
+    /* top: 50%; */
+    /* transition: top 1s; */
 }
 
 .card-desc {
     font-family: 'Courier New', Courier, monospace;
     font-size: calc(0.2em + 1.3vw);
     font-weight: bold;
-    margin: 0px 10px 5px 15px;
+    grid-column: description;
+    grid-row: 1;
+    margin: 10px 10px 5px 15px;
     color: rgb(251, 254, 255);
-    position: relative;
-    top: 100%;
-    opacity: 0;
-    transition: top 1s, opacity 2s;
+    overflow: scroll;
+    text-align: justify;
+    /* position: relative; */
+    /* top: 100%; */
+    /* opacity: 1; */
+    /* transition: top 1s, opacity 2s; */
 }
 
 .card:hover {
-    background-color: rgba(237, 31, 141, 0.399);
-    overflow: scroll;
-    scroll-snap-type: mandatory;
-    transition: background-color 0.3s;
+    height: 24vw;
+    box-shadow: 4px 4px rgba(197, 165, 24, 0.702);
+    transition: box-shadow 0.3s, height 0.3s;
 }
-
+/* 
 .card:hover .card-title {
     top: 0;
     transition: top 1s;
@@ -53,4 +75,4 @@
     opacity: 1;
     transition: top 1s, opacity 3s;
     scroll-snap-align: end;
-}
+} */

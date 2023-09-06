@@ -6,8 +6,12 @@ import "./Skills.css";
 import skillsList from "../data/skills.json";
 
 const Skills = () => {
-  const skillCards = skillsList.map((entry) => {
-    return <SkillCard title={entry.title} desc={entry.description} />;
+  const skillCards = skillsList.map((entry, index) => {
+    return <SkillCard 
+            key={index}
+            title={entry.title}
+            desc={entry.description}
+            position={index % 2 ? 'right' : 'left'}/>;
   });
   return (
     <div>
