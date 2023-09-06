@@ -1,0 +1,8 @@
+.projects {
+    border: 10px solid red;
+    background-color: blueviolet;
+    color: black;
+    width: 30vh;
+    position: relative;
+    z-index: 1;
+}
