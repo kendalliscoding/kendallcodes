@@ -5,7 +5,6 @@ import "./SkillCard.css";
 const SkillCard = ({ title, desc, position }) => {
   const cardRef = useRef();
   const resetScroll = () => {
-    let scrollPos = cardRef.current.scrollTop;
     while (cardRef.current.scrollTop > 0) {
       cardRef.current.scrollTop--;
     }

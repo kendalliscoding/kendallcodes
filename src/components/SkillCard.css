@@ -3,11 +3,12 @@
     margin: 20px;
     border-radius: 5px;
     box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
-    height: 20vw;
+    flex: 0 0 20vh;
+    /* height: 50vh; */
     min-width: 150px;
     min-height: 150px;
     overflow: hidden;
-    transition: background-color 0.5s, height 0.5s;
+    transition: box-shadow 0.5s, flex 0.5s;
 }
 
 .left {
@@ -39,8 +40,6 @@
     grid-row: 1;
     margin: 0px 10px 20px;
     position: relative;
-    /* top: 50%; */
-    /* transition: top 1s; */
 }
 
 .card-desc {
@@ -53,26 +52,10 @@
     color: rgb(251, 254, 255);
     overflow: scroll;
     text-align: justify;
-    /* position: relative; */
-    /* top: 100%; */
-    /* opacity: 1; */
-    /* transition: top 1s, opacity 2s; */
 }
 
 .card:hover {
-    height: 24vw;
+    flex: 0 0 24vh;
     box-shadow: 4px 4px rgba(197, 165, 24, 0.702);
-    transition: box-shadow 0.3s, height 0.3s;
+    transition: box-shadow 0.3s, flex 0.3s;
 }
-/* 
-.card:hover .card-title {
-    top: 0;
-    transition: top 1s;
-}
-
-.card:hover .card-desc {
-    top: 0;
-    opacity: 1;
-    transition: top 1s, opacity 3s;
-    scroll-snap-align: end;
-} */
