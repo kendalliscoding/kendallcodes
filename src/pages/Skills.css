@@ -1,11 +1,25 @@
-.cards {
-    margin: 150px 0 100px 0;
-    position: relative;
+.main-skills {
+     /* calculated from navbar being 60px tall with a 10px top margin and 0px bottom margin */
+    margin: 95px auto;
     height: 85vh;
-    width: 100%;
+    width: 80vw;
+    border: 2px solid #ff0000;
+    min-width: 500px;
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
-    padding: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     overflow-y: scroll;
+    padding: 20px;
+    z-index: -1;
+}
+
+.cards {
+    /* margin: 150px 0 100px 0; */
+    position: relative;
+    width: 100%;
+    /* display: inline-flex;
+    flex-direction: column;
+    align-content: flex-start; */
 }

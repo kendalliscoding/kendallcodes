@@ -1,6 +1,6 @@
 .card {
     background-color: rgba(222, 156, 200, 0.399);
-    margin: 20px;
+    margin: 20px 0px;
     border-radius: 5px;
     box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
     flex: 0 0 20vh;

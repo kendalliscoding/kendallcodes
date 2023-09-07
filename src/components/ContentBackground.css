@@ -5,6 +5,7 @@
     height: 100vh;
     left: 0;
     right: 0;
+    top: 0;
     margin: auto;
     overflow: hidden;
     z-index: -10;

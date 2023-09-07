@@ -19,7 +19,7 @@ const Skills = () => {
     <div>
       <ContentBackground />
       <NavBar />
-      <main>
+      <main className="main-skills">
         <Projects />
         <div className="cards">{skillCards}</div>
       </main>
