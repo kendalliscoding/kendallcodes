@@ -3,30 +3,29 @@
     margin: 20px 0px;
     border-radius: 5px;
     box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
-    flex: 0 0 20vh;
-    /* height: 50vh; */
+    /* flex: 0 0 20vh; */
     min-width: 150px;
     min-height: 150px;
     overflow: hidden;
     transition: box-shadow 0.5s, flex 0.5s;
 }
 
-.left {
+.left-card {
     display: grid;
     grid-template-columns: [title] 1fr [description] 3fr;
 }
 
-.right {
+.right-card {
     display: grid;
     grid-template-columns: [description] 3fr [title] 1fr;
     grid-template-rows: auto;
 }
 
-.left .card-title {
+.left-card .card-title {
     text-align: right;
 }
 
-.right .card-title {
+.right-card .card-title {
     text-align: left;
 }
 

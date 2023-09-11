@@ -5,6 +5,7 @@ import Projects from "../components/Projects";
 import SkillCard from "../components/SkillCard";
 import "./Skills.css";
 import skillsList from "../data/skills.json";
+import QuestionBubble from "../components/QuestionBubble";
 
 const Skills = () => {
   const skillCards = skillsList.map((entry, index) => {
@@ -12,7 +13,7 @@ const Skills = () => {
             key={index}
             title={entry.title}
             desc={entry.description}
-            position={index % 2 ? 'right' : 'left'}
+            position={index % 2 ? 'right-card' : 'left-card'}
             />;
   });
   return (
@@ -20,8 +21,14 @@ const Skills = () => {
       <ContentBackground />
       <NavBar />
       <main className="main-skills">
-        <Projects />
-        <div className="cards">{skillCards}</div>
+        <section>
+          <QuestionBubble position="left-bubble" question="Most recent project?"/>
+          <Projects />
+        </section>
+        <section>
+          <QuestionBubble position="right-bubble" question="What are your technical skills?" />
+          <div className="cards">{skillCards}</div>
+        </section>
       </main>
       <Footer />
     </div>
