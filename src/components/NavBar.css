@@ -5,9 +5,9 @@ nav {
     margin-top: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 12vw;
-    padding-right: 12vw;
-    width: 76vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 100%;
     position: fixed;
     top: 0px;
     background-color: rgba(202, 243, 196, 0.353);
