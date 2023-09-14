@@ -1,25 +1,31 @@
 .projects {
-    color: black;
+    background-color: rgb(225, 183, 218);
+    border-radius: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     position: relative;
     width: 100%;
     display: grid;
-    align-self: flex-start;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 100%;
     grid-template-rows: 100%;
+    height: 30vh;
+    overflow: hidden;
 }
 
 #reveal-screen-on {
     position: relative;
-    background-color: rgb(178, 165, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 165, 243, 0.194);
     height: 100%;
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
     grid-row: 1 / 2;
     border-radius: 5px;
     z-index: 5;
-    text-align: center;
     font-family: 'Courier New', Courier, monospace;
-
-    color: white;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -27,17 +33,26 @@
     display: none;
 }
 
+.projects-content {
+    height: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+}
+
+.content-blur {
+    filter: blur(20px);
+}
+
 #homepage-screenshot {
-    margin: 10px;
+    /* margin: 10px; */
     position: relative;
     z-index: 1;
-    grid-column: 1;
-    grid-row: 1;
+    height: 100%;
 }
 
 #website-details {
     position: relative;
-    grid-column: 2;
-    grid-row: 1;
     z-index: 1;
+    font-size: 20px;
 }
