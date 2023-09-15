@@ -42,7 +42,8 @@ nav a:hover {
 
 .active {
     font-weight: bold;
-    color: rgba(205, 60, 241, 0.861)
+    color: rgba(205, 60, 241, 0.861);
+    pointer-events: none;
 }
 
 #site-title {
@@ -50,7 +51,7 @@ nav a:hover {
     font-size: 24px;
     letter-spacing: 3px;
     margin: auto;
-    margin-right: 0;
+    margin-right: 1vw;
     font-style: italic;
     color: white;
 }
