@@ -5,22 +5,24 @@
 }
 
 .questionBubble {
+    /* border: 2px solid red; */
     position: relative;
-    display: grid;
     margin-bottom: 20px;
+    width: 100%;
+    display: grid;
     grid-template-rows: auto;
     filter: drop-shadow(3px 3px var(--bubble-transition-shadow)) drop-shadow(4px 4px var(--bubble-shadow));
     /* width: 122%; */
 }
 
 .left-bubble {
-    left: -13.5%;
-    grid-template-columns: 5% 95%;
+    left: 10px;
+    grid-template-columns: 2% 98%;
 }
 
 .right-bubble {
-    right: -13.5%;
-    grid-template-columns: 95% 5%;
+    right: 10px;
+    grid-template-columns: 98% 2%;
 }
 
 
@@ -28,6 +30,7 @@
     background-color: var(--bubble-color);
     /* box-shadow: 4px 4px var(--bubble-shadow); */
     text-align: center;
+    width: 80%;
 }
 
 .left-bubble .bubble {
@@ -39,6 +42,7 @@
 .right-bubble .bubble {
     grid-column: 1;
     grid-row: 1;
+    justify-self: right;
     border-radius: 30px 30px 0px 30px;
 }
 
