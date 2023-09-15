@@ -1,5 +1,5 @@
 .projects {
-    background-color: rgb(225, 183, 218);
+    background-color: rgba(222, 156, 200, 0.399);
     border-radius: 5px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -18,7 +18,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(221, 165, 243, 0.194);
     height: 100%;
     grid-column: 1 / 2;
     grid-row: 1 / 2;

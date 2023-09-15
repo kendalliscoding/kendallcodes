@@ -1,11 +1,21 @@
 footer {
     position: fixed;
-    bottom: 0;
-    width: 94vw;
-    padding: 2px 3vw 2px 3vw;
-    background-color: rgba(211, 157, 236, 0.794);
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+    bottom: 15px;
+    width: 100%;
+    padding: 5px 6vw;
+    background-color: rgb(212, 228, 210);
+    box-shadow: 0px 5px rgba(107, 223, 89, 0.353);
     display: flex;
     justify-content: flex-end;
-    opacity: 0.8;
     color: rgb(239, 252, 218);
+}
+
+.copyright {
+    color: white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background-color: rgb(176, 188, 210);
 }
