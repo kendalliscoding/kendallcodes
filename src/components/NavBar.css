@@ -2,10 +2,14 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    
     margin-top: 10px;
-    padding: 30px 5vw;
+    padding:10px 5vw;
     width: 100%;
     position: fixed;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
     top: 0px;
     background-color: rgb(212, 228, 210);
     box-shadow: 5px 5px rgba(107, 223, 89, 0.353);
@@ -17,20 +21,36 @@ nav a {
     font-size: 12px;
     letter-spacing: 3px;
     margin: 5px;
-    /* font-weight: bold; */
+    font-weight: bold;
     text-decoration: none;
     color: white;
     padding: 15px;
     border-radius: 4px;
     background-color: rgb(176, 188, 210);
+    transition: background-color 0.7s, box-shadow 0.7s, margin-left 0.7s, margin-right 0.7s, transform 0.7s;
 }
 
 nav a:hover {
-    background-color: rgba(221, 232, 165, 0.785);
-    transition: background-color 0.7s;
+    background-color: rgba(222, 156, 200, 0.399);
+    margin-left: 15px;
+    margin-right: 15px;
+    align-self: flex-start;
+    box-shadow: 3px 3px rgba(187, 75, 163, 0.702);
+    transform: translate(0px, -2px);
+    transition: background-color 0.7s, box-shadow 0.7s, margin-left 0.7s, margin-right 0.7s, transform 0.7s;
 }
 
 .active {
     font-weight: bold;
     color: rgba(205, 60, 241, 0.861)
+}
+
+#site-title {
+    font-family: Arial, Trebuchet MS, sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin: auto;
+    margin-right: 0;
+    font-style: italic;
+    color: white;
 }
