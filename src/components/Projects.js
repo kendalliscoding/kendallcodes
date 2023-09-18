@@ -6,11 +6,9 @@ const Projects = () => {
     const [hideContent, setHideContent] = useState(true);
     
     const contentScreenId = hideContent ? "reveal-screen-on" : "reveal-screen-off";
-    const contentBlur = hideContent ? "content-blur" : "";
+    const contentBlur = hideContent ? "content-blur-on" : "content-blur-off";
 
     const revealProject = (e) => {
-        console.log(e, window.screen.width, window.screen.height, e.clientX, e.clientX / window.screen.width, e.clientY, e.clientY / window.screen.height);
-
         confetti({
             particleCount: 200,
             spread: 100,
@@ -27,7 +25,11 @@ const Projects = () => {
             <div id={contentScreenId} onClick={(e) => revealProject(e)}>reveal</div>
             <div className={`projects-content ${contentBlur}`}>
                 <img id="homepage-screenshot" alt="insert homepage screenshot here" src="https://placekitten.com/200/300"/>
-                <p id="website-details"> This website! 🎉 Check out the source code ** here **  </p>
+                <p id="website-details"> 
+                    <h1>This website! 🎉</h1>
+                    <p>Building this portfolio website with React has been an opportunity for me to dive deeper into web development and highlight my accomplishments. Thank you for visiting. 😌☀️✨ </p>
+                    <p>Check out the source code <a id="project-source-code" href="https://github.com/kendalliscoding/kendallcodes" target="_blank">here</a>  </p> 
+                </p>
             </div>
             
         </section>
