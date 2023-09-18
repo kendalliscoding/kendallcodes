@@ -3,11 +3,11 @@
     margin: 20px 0px;
     border-radius: 5px;
     box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
-    /* flex: 0 0 20vh; */
+    height: 20vh;
     min-width: 150px;
     min-height: 150px;
     overflow: hidden;
-    transition: box-shadow 0.5s, flex 0.5s;
+    transition: box-shadow 0.5s, height 0.5s;
 }
 
 .left-card {
@@ -54,7 +54,7 @@
 }
 
 .card:hover {
-    flex: 0 0 24vh;
+    height: 24vh;
     box-shadow: 4px 4px rgba(197, 165, 24, 0.702);
-    transition: box-shadow 0.3s, flex 0.3s;
+    transition: box-shadow 0.3s, height 0.3s;
 }
