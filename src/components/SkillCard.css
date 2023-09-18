@@ -1,4 +1,63 @@
+
 .card {
+    background-color: rgba(222, 156, 200, 0.399);
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
+    width: 20vw;
+    height: 20vw;
+    min-width: 150px;
+    min-height: 150px;
+    overflow: hidden;
+    transition: background-color 0.5s;
+}
+
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: calc(1em + 2vw);
+    text-align: right;
+    margin: 0px 10px 20px;
+    position: relative;
+    top: 50%;
+    transition: top 1s;
+}
+
+.card-desc {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: calc(0.2em + 1.3vw);
+    font-weight: bold;
+    margin: 0px 10px 5px 15px;
+    color: rgb(251, 254, 255);
+    position: relative;
+    top: 100%;
+    opacity: 0;
+    transition: top 1s, opacity 2s;
+}
+
+.card:hover {
+    background-color: rgba(237, 31, 141, 0.399);
+    overflow: scroll;
+    scroll-snap-type: mandatory;
+    transition: background-color 0.3s;
+}
+
+.card:hover .card-title {
+    top: 0;
+    transition: top 1s;
+}
+
+.card:hover .card-desc {
+    top: 0;
+    opacity: 1;
+    transition: top 1s, opacity 3s;
+    scroll-snap-align: end;
+}
+
+/* alternating list of card styles */
+/* .card {
     background-color: rgba(222, 156, 200, 0.399);
     margin: 20px 0px;
     border-radius: 5px;
@@ -57,4 +116,4 @@
     height: 24vh;
     box-shadow: 4px 4px rgba(197, 165, 24, 0.702);
     transition: box-shadow 0.3s, height 0.3s;
-}
+} */

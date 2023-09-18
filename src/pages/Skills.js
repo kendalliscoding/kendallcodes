@@ -8,14 +8,18 @@ import skillsList from "../data/skills.json";
 import QuestionBubble from "../components/QuestionBubble";
 
 const Skills = () => {
-  const skillCards = skillsList.map((entry, index) => {
-    return <SkillCard 
-            key={index}
-            title={entry.title}
-            desc={entry.description}
-            position={index % 2 ? 'right-card' : 'left-card'}
-            />;
+  const skillCards = skillsList.map((entry) => {
+    return <SkillCard title={entry.title} desc={entry.description} />;
   });
+  // alternating list of cards
+  // const skillCards = skillsList.map((entry, index) => {
+  //   return <SkillCard 
+  //           key={index}
+  //           title={entry.title}
+  //           desc={entry.description}
+  //           position={index % 2 ? 'right-card' : 'left-card'}
+  //           />;
+  // });
   return (
     <div>
       <ContentBackground />
