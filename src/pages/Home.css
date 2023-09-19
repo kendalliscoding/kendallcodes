@@ -45,7 +45,7 @@
     min-height: 400px;
 }
 
-.title_intro {
+#title-intro {
     text-align: center;
     font-family: Arial, Trebuchet MS, sans-serif;
     font-size: calc(30px + 4vw);
