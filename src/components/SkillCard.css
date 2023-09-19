@@ -1,11 +1,15 @@
 
 .card {
     background-color: rgba(222, 156, 200, 0.399);
-    margin: 20px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+    /* margin: 0 20px; */
     border-radius: 5px;
     box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
+    aspect-ratio: 1 / 1;
     width: 20vw;
-    height: 20vw;
+    /* height: 20vw; */
     min-width: 150px;
     min-height: 150px;
     overflow: hidden;
@@ -38,7 +42,7 @@
 }
 
 .card:hover {
-    background-color: rgba(237, 31, 141, 0.399);
+    /* background-color: rgba(237, 31, 141, 0.399); */
     overflow: scroll;
     scroll-snap-type: mandatory;
     transition: background-color 0.3s;
