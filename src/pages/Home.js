@@ -18,8 +18,6 @@ const Home = () => {
     }
   }
 
-  
-
   return (
     <div >
       <ContentBackground />
