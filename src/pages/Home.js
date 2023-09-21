@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar";
 import ContentBackground from "../components/ContentBackground";
 import Footer from "../components/Footer";
 import Rain from "../components/Rain"
+import Clouds from "../components/Clouds";
 
 const Home = () => {
 
@@ -23,9 +24,13 @@ const Home = () => {
 
   return (
     <div>
-      <Rain />
+      
       <ContentBackground />
       <NavBar />
+      <div className="rain-clouds">
+        <Clouds />
+        <Rain />
+      </div>
       <main className="main-home" onLoad={() => setTimeout(typeWriter, 1000)}>
         <div className="circle-img-crop">
           <img src={headshot} className="headshot" alt="kendall's headshot" />

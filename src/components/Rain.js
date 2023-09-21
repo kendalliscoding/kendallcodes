@@ -11,8 +11,12 @@ const Rain = () => {
     if (raindrops.length < 50) {
         setTimeout(() => createRaindrops(raindrops.length + 1), 300);
     }
+
+    const resetRain = () => {
+        setRaindrops([]);
+    }
     return (
-        <div className="rain">
+        <div className="rain" onFocus={resetRain}>
             {raindrops}
         </div>
     )
