@@ -1,0 +1,8 @@
+.cloud {
+    display: inline;
+    min-width: 150px;
+    max-width: 250px;
+    margin: 0 -15px;
+    fill: rgb(94, 72, 100);
+    /* border: 2px solid red; */
+}
