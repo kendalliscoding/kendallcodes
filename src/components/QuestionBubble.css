@@ -1,0 +1,78 @@
+:root {
+    --bubble-color: rgb(176, 188, 210);
+    --bubble-transition-shadow: rgb(203, 114, 255);
+    --bubble-shadow: rgb(57, 169, 248);
+}
+
+.questionBubble {
+    /* border: 2px solid red; */
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    filter: drop-shadow(3px 3px var(--bubble-transition-shadow)) drop-shadow(4px 4px var(--bubble-shadow));
+    /* width: 122%; */
+}
+
+.left-bubble {
+    left: 10px;
+    grid-template-columns: 2% 98%;
+}
+
+.right-bubble {
+    right: 10px;
+    grid-template-columns: 98% 2%;
+}
+
+
+.bubble {
+    background-color: var(--bubble-color);
+    /* box-shadow: 4px 4px var(--bubble-shadow); */
+    text-align: center;
+    width: 80%;
+}
+
+.left-bubble .bubble {
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 30px 30px 30px 0px;
+}
+
+.right-bubble .bubble {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: right;
+    border-radius: 30px 30px 0px 30px;
+}
+
+.tail {
+    width: 0;
+    height: 0;
+    align-self: end;
+    border-top: 20px solid transparent;border-bottom: 0px solid transparent;
+    
+}
+
+.left-bubble .tail {
+    grid-column: 1;
+    justify-self: right;
+    border-right: var(--bubble-color) 20px solid;
+    /* box-shadow: 4px 4px var(--bubble-shadow); */
+}
+
+.right-bubble .tail {
+    grid-column: 2;
+    justify-self: left;
+    border-left: var(--bubble-color) 20px solid;
+    /* filter: drop-shadow(4px 4px var(--bubble-shadow)); */
+    
+}
+
+.question {
+    color: white;
+    font-size: 20px;
+    margin: 20px 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

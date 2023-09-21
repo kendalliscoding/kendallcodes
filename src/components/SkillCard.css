@@ -1,0 +1,60 @@
+.card {
+    background-color: rgba(222, 156, 200, 0.399);
+    margin: 20px 0px;
+    border-radius: 5px;
+    box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
+    height: 20vh;
+    min-width: 150px;
+    min-height: 150px;
+    overflow: hidden;
+    transition: box-shadow 0.5s, height 0.5s;
+}
+
+.left-card {
+    display: grid;
+    grid-template-columns: [title] 1fr [description] 3fr;
+}
+
+.right-card {
+    display: grid;
+    grid-template-columns: [description] 3fr [title] 1fr;
+    grid-template-rows: auto;
+}
+
+.left-card .card-title {
+    text-align: right;
+}
+
+.right-card .card-title {
+    text-align: left;
+}
+
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: calc(1em + 2vw);
+    grid-column: title;
+    grid-row: 1;
+    margin: 0px 10px 20px;
+    position: relative;
+}
+
+.card-desc {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: calc(0.2em + 1.3vw);
+    font-weight: bold;
+    grid-column: description;
+    grid-row: 1;
+    margin: 10px 10px 5px 15px;
+    color: rgb(251, 254, 255);
+    overflow: scroll;
+    text-align: justify;
+}
+
+.card:hover {
+    height: 24vh;
+    box-shadow: 4px 4px rgba(197, 165, 24, 0.702);
+    transition: box-shadow 0.3s, height 0.3s;
+}

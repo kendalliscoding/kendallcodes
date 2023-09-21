@@ -4,12 +4,10 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <nav>
-      <div>
-        <NavLink to="/">HOME</NavLink>
-      </div>
-      <div>
-        <NavLink to="/aboutme">ABOUT ME</NavLink>
-      </div>
+      <NavLink to="/">HOME</NavLink>
+      <NavLink to="/aboutme">ABOUT ME</NavLink>
+      <NavLink to="/skills">SKILLS</NavLink>
+      <p id="site-title"> KENDALL CODES </p>
     </nav>
   );
 };
