@@ -1,0 +1,126 @@
+:root {
+    --raindrop-color: rgb(29, 146, 255);
+    --raindrop-width: 6px;
+}
+
+.hide-raindrop {
+    display: none;
+}
+
+.show-raindrop {
+    display: inline;
+}
+
+.raindrop {
+    position: absolute;
+    top: -10px;
+    background-color: var(--raindrop-color);
+    height: 10px;
+    width: var(--raindrop-width);
+    animation-name: rainfall;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    overflow: visible;
+}
+
+@keyframes rainfall {
+    from {
+        margin-top: 0;
+    }
+    to {
+        margin-top: 99vh;
+    }
+}
+
+.hide-particles {
+    display: none;
+}
+
+.show-particles {
+    display: inline;
+}
+
+.left-particle {
+    position: absolute;
+    background-color: var(--raindrop-color);
+    margin-top: 99vh;
+    height: var(--raindrop-width);
+    width: var(--raindrop-width);
+    animation-name: left-particle;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    /* animation-timing-function: ease-out; */
+    /* overflow: visible; */
+}
+
+@keyframes left-particle {
+    from {
+        magin-top: 99vh;
+        transform: translateX(0);
+    }
+    40% {
+        margin-top: 97vh;
+        transform: translateX(-20px);
+    }
+    to {
+        margin-top: 100vh;
+        transform: translateX(-30px);
+    }
+}
+
+.middle-particle {
+    position: absolute;
+    background-color: var(--raindrop-color);
+    margin-top: 99vh;
+    height: var(--raindrop-width);
+    width: var(--raindrop-width);
+    animation-name: middle-particle;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    /* animation-timing-function: ease-out; */
+    /* overflow: visible; */
+}
+
+@keyframes middle-particle {
+    from {
+        magin-top: 99vh;
+    }
+    40% {
+        margin-top: 95vh;
+    }
+    to {
+        margin-top: 100vh;
+    }
+}
+
+.right-particle {
+    position: absolute;
+    background-color: var(--raindrop-color);
+    margin-top: 99vh;
+    height: var(--raindrop-width);
+    width: var(--raindrop-width);
+    animation-name: right-particle;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    /* animation-timing-function: ease-out; */
+    /* overflow: visible; */
+}
+
+@keyframes right-particle {
+    from {
+        magin-top: 99vh;
+        transform: translateX(0);
+    }
+    40% {
+        margin-top: 97vh;
+        transform: translateX(20px);
+    }
+    to {
+        margin-top: 100vh;
+        transform: translateX(30px);
+    }
+}
+

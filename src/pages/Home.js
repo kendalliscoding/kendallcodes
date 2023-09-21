@@ -3,6 +3,7 @@ import "./Home.css";
 import NavBar from "../components/NavBar";
 import ContentBackground from "../components/ContentBackground";
 import Footer from "../components/Footer";
+import Rain from "../components/Rain"
 
 const Home = () => {
 
@@ -21,7 +22,8 @@ const Home = () => {
   
 
   return (
-    <div >
+    <div>
+      <Rain />
       <ContentBackground />
       <NavBar />
       <main className="main-home" onLoad={() => setTimeout(typeWriter, 1000)}>
