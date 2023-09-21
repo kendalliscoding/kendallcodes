@@ -13,7 +13,7 @@ nav {
     top: 0px;
     background-color: rgb(212, 228, 210);
     box-shadow: 5px 5px rgba(107, 223, 89, 0.353);
-    z-index: 999;
+    z-index: 10;
 }
 
 nav a {
