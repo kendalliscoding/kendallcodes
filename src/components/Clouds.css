@@ -1,9 +1,7 @@
 .clouds {
     position: relative;
-    /* margin-left: -5vh; */
     display: flex;
     flex-direction: row;
     z-index: 15;
-    /* opacity: 0.7; */
-    height: 20%;
+    padding: 0;
 }
