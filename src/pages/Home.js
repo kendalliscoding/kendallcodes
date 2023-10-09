@@ -7,7 +7,6 @@ import Rain from "../components/Rain"
 import Clouds from "../components/Clouds";
 
 const Home = () => {
-
   // typewriter code from w3schools
   let currentLetter = 0;
   const txt = 'Hey, I\'m Kendall.'; /* The text */
@@ -28,7 +27,7 @@ const Home = () => {
       <ContentBackground />
       <NavBar />
       <div className="rain-clouds">
-        <Clouds />
+        {/* <Clouds /> */}
         <Rain />
       </div>
       <main className="main-home" onLoad={() => setTimeout(typeWriter, 1000)}>
