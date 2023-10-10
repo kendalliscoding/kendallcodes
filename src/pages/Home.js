@@ -4,7 +4,6 @@ import NavBar from "../components/NavBar";
 import ContentBackground from "../components/ContentBackground";
 import Footer from "../components/Footer";
 import Rain from "../components/Rain"
-import Clouds from "../components/Clouds";
 
 const Home = () => {
   // typewriter code from w3schools
@@ -26,15 +25,12 @@ const Home = () => {
       
       <ContentBackground />
       <NavBar />
-      <div className="rain-clouds">
-        {/* <Clouds /> */}
-        <Rain />
-      </div>
+      <Rain />
       <main className="main-home" onLoad={() => setTimeout(typeWriter, 1000)}>
         <div className="circle-img-crop">
           <img src={headshot} className="headshot" alt="kendall's headshot" />
         </div>
-        <h1 id="title-intro"></h1>
+        <p id="title-intro"></p>
       </main>
       <Footer />
     </div>
