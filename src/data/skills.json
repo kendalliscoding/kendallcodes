@@ -37,7 +37,7 @@
     },
     {
         "title": "postgresql",
-        "description": ""
+        "description": "PostgreSQL is great and I love that it's open source."
     },
     {
         "title": "ansible",
@@ -50,5 +50,29 @@
     {
         "title": "docker",
         "description": "What's not to love about Docker? Being able to reproduce an environment with lightweight Docker Containers is great for so many reasons, but especially deployments."
+    },
+    {
+        "title": "git",
+        "description": "I have used git professionally with GitHub and GitLab. It's just an all around great tool."
+    },
+    {
+        "title": "c++",
+        "description": "While C++ is by no means a language I choose to develop with often, I do appreciate the more granular levels of control it gives developers due to it being statically typed and things like its manual memory management."
+    },
+    {
+        "title": "java",
+        "description": "Java is another language  I have not used too much, but I enjoy that its statically typed and I recognize its power. So, I would be happy to spend some more time working with Java in the future."
+    },
+    {
+        "title": "render",
+        "description": "Render's free tier is pretty solid. It has some bugs, but overall I think it's a decent service."
+    },
+    {
+        "title": "heroku",
+        "description": "I really enjoyed deployments with Heroku, but I'm sad they got rid of their free tier."
+    },
+    {
+        "title": "robot framework",
+        "description": "This testing framework is super unique and I'm intrigued by their plain English approach to tests. It was fun working with this one!"
     }
 ]
