@@ -71,7 +71,7 @@
 
 .question {
     color: white;
-    font-size: 20px;
+    font-size: calc(15px + 1vw);
     margin: 20px 50px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;

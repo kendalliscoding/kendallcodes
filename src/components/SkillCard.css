@@ -33,7 +33,8 @@
     font-weight: bold;
     font-style: italic;
     font-variant: small-caps;
-    font-size: calc(1em + 2vw);
+    font-size: calc(15px + 1vw);
+    color: rgb(255, 255, 255);
     grid-column: title;
     grid-row: header;
     margin: 0px 10px 20px;
@@ -43,7 +44,7 @@
 .card-desc {
     display: none;
     font-family: 'Courier New', Courier, monospace;
-    font-size: calc(0.2em + 1.3vw);
+    font-size: calc(10px + 1vw);
     font-weight: bold;
     grid-column: description;
     grid-row: body;
@@ -53,8 +54,8 @@
 }
 
 .card:hover {
-    box-shadow: 4px 4px rgba(197, 165, 24, 0.702);
-    height: 20vh;
+    box-shadow: 4px 4px rgb(204, 174, 23);
+    height: calc(22vh + 2vw);
     transition: box-shadow 0.3s, height 0.3s;
 }
 
