@@ -1,18 +1,54 @@
 [
     {
         "title": "python",
-        "description": "Python is the language I learned to code with, and it has remained my favorite ever since. <3 I have used Python to build an interface library, write scripts, analyze data with Pandas, and I even built a game with PyGame as my first project. I really enjoy coding in Python because its simple yet powerful and it has really great community support."
+        "description": "Some of my favorite Python features are [list/dict/set] comprehensions and generator expressions for their elegance. I also really love that well-written, clean code is a priority for the language."
     },
     {
         "title": "pytest",
-        "description": "Pytest is my favorite Python test framework. I love it's functional approach, the clear test results formatting, and its fixtures feature!"
+        "description": "I love Pytest's functional approach, the clear test results formatting, and its fixtures."
     },
     {
-        "title": "html css js",
-        "description": "I grew an interest in web development after playing around with my tumblr theme's source code back when I was in high school. Years later, after being accepted into my university's CS program, I began teaching myself how to build a website with HTML, CSS, and JavaScript. I deployed my first website in 2017 after buying a domain and learning how to host a website with github."
+        "title": "html",
+        "description": "Fun fact - I started messing around with HTML when I got a tumblr in high school! I love how accessibility is a big part of HTML and it's been fun learning about head tags for search engine optimization (SEO)."
     },
     {
-        "title": "roller skater",
-        "description": "I picked up roller skating as a pandemic hobby. Some of my favorite moves are crazy legs, dips, and toe spins!"
+        "title": "css",
+        "description": "As an artist, I really appreciate nice visuals and good design, so I always have fun styling a website with CSS. I have especially enjoyed messing around with animations and transitions as I have been working on this portfolio site."
+    },
+    {
+        "title": "javascript",
+        "description": "I have a love/hate relationship with JavaScript, but I never get tired of event listeners. There is something very satisfying about triggering and handling events."
+    },
+    {
+        "title": "react",
+        "description": "I really love React! Working with component-based elements makes the development process so nice!"
+    },
+    {
+        "title": "flask",
+        "description": "What's not to love? You can get a Flask API up and running fairly quickly and writing view functions feels pretty intuitive for me."
+    },
+    {
+        "title": "sqlalchemy",
+        "description": "While the documentation for SQLAlchemy is a bit of a pain, it is really nice handing off database queries to an object relational mapper (ORM)."
+    },
+    {
+        "title": "sql",
+        "description": "I find it fascinating how simple the syntax is for SQL and yet it is so powerful as a language. My favorite functionality is probably joins."
+    },
+    {
+        "title": "postgresql",
+        "description": ""
+    },
+    {
+        "title": "ansible",
+        "description": "I am really impressed with how easy it is to do things like navigate around an operating system, check file permissions, and automate the execution of scripts with Ansible."
+    },
+    {
+        "title": "jenkins",
+        "description": "I really enjoy creating continuous integration/continuous deployment (CI/CD) pipelines with Jenkins. It's nice seeing all of the aggregated data in one place and I also enjoy the built in secrets management."
+    },
+    {
+        "title": "docker",
+        "description": "What's not to love about Docker? Being able to reproduce an environment with lightweight Docker Containers is great for so many reasons, but especially deployments."
     }
 ]
