@@ -25,11 +25,11 @@ const Projects = () => {
             <div id={contentScreenId} onClick={(e) => revealProject(e)}>reveal</div>
             <div className={`projects-content ${contentBlur}`}>
                 <img id="homepage-screenshot" alt="insert homepage screenshot here" src="https://placekitten.com/200/300"/>
-                <p id="website-details"> 
-                    <h1>This website! 🎉</h1>
+                <div id="website-details"> 
+                    <p>This website! 🎉</p>
                     <p>Building this portfolio website with React has been an opportunity for me to dive deeper into web development and highlight my accomplishments. Thank you for visiting. 😌☀️✨ </p>
                     <p>Check out the source code <a id="project-source-code" href="https://github.com/kendalliscoding/kendallcodes" target="_blank">here</a>  </p> 
-                </p>
+                </div>
             </div>
             
         </section>

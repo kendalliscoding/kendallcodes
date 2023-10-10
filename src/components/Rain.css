@@ -1,0 +1,8 @@
+.rain {
+    position: relative;
+    z-index: 5;
+    height: 102%;
+    width: 100vw;
+    margin-top: -1%;
+    /* border: 2px solid red; */
+}
