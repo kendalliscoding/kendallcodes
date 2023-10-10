@@ -3,9 +3,7 @@
     margin: 20px 0px;
     border-radius: 5px;
     box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
-    height: 20vh;
-    min-width: 150px;
-    min-height: 150px;
+    height: 6vh;
     overflow: hidden;
     transition: box-shadow 0.5s, height 0.5s;
 }
@@ -13,20 +11,21 @@
 .left-card {
     display: grid;
     grid-template-columns: [title] 1fr [description] 3fr;
+    grid-template-rows: [header] 100% [body] 0%;
 }
 
 .right-card {
     display: grid;
     grid-template-columns: [description] 3fr [title] 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: [header] 100% [body] 0%;
 }
 
 .left-card .card-title {
-    text-align: right;
+    text-align: left;
 }
 
 .right-card .card-title {
-    text-align: left;
+    text-align: right;
 }
 
 .card-title {
@@ -36,25 +35,37 @@
     font-variant: small-caps;
     font-size: calc(1em + 2vw);
     grid-column: title;
-    grid-row: 1;
+    grid-row: header;
     margin: 0px 10px 20px;
     position: relative;
 }
 
 .card-desc {
+    display: none;
     font-family: 'Courier New', Courier, monospace;
     font-size: calc(0.2em + 1.3vw);
     font-weight: bold;
     grid-column: description;
-    grid-row: 1;
+    grid-row: body;
     margin: 10px 10px 5px 15px;
     color: rgb(251, 254, 255);
-    overflow: scroll;
     text-align: justify;
 }
 
 .card:hover {
-    height: 24vh;
     box-shadow: 4px 4px rgba(197, 165, 24, 0.702);
+    height: 20vh;
     transition: box-shadow 0.3s, height 0.3s;
+}
+
+.left-card:hover {
+    grid-template-rows: [header] 1fr [body] 3fr;
+}
+
+.right-card:hover {
+    grid-template-rows: [header] 1fr [body] 3fr;
+}
+
+.card:hover .card-desc {
+    display: block;
 }
