@@ -50,12 +50,3 @@
     font-style: italic;
     white-space: nowrap;
 }
-
-.rain-clouds {
-    position: absolute;
-    display: flex;
-    /* margin-top: 7vh; */
-    height: 100vh;
-    flex-direction: column;
-    /* border: 2px solid red; */
-}

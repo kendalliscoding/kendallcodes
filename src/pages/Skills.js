@@ -26,7 +26,7 @@ const Skills = () => {
           <Projects />
         </section>
         <section>
-          <QuestionBubble position="right-bubble" question="What are your technical skills?" />
+          <QuestionBubble position="right-bubble" question="What programming languages/tools do you have experience with?" />
           <div className="cards">{skillCards}</div>
         </section>
       </main>

@@ -3,7 +3,7 @@
     margin: 20px 0px;
     border-radius: 5px;
     box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
-    height: 6vh;
+    height: calc(6vh + 1vw);
     overflow: hidden;
     transition: box-shadow 0.5s, height 0.5s;
 }
