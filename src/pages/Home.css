@@ -28,13 +28,14 @@
 
 .circle-img-crop {
     margin: 0;
-    height: 35vw;
-    width: 35vw;
-    max-height: 450px;
-    max-width: 450px;
+    height: 30vw;
+    width: 30vw;
+    max-height: 300px;
+    max-width: 300px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.9;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .headshot {
@@ -45,6 +46,7 @@
 #title-intro {
     text-align: center;
     font-family: Arial, Trebuchet MS, sans-serif;
+    color: white;
     font-size: calc(30px + 4vw);
     font-weight: bold;
     font-style: italic;
