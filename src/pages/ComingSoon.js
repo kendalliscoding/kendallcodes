@@ -11,7 +11,7 @@ const ComingSoon = () => {
       <NavBar />
       <main id="main-coming-soon">
         <img id="construction-bear" src={constructionBear} alt="a bear, hammer, nails, and a wrench" />
-        <section class="construction-text">
+        <section className="construction-text">
         <p> This website is under construction! </p>
         <p> Come back soon for more features~ </p>
         </section>

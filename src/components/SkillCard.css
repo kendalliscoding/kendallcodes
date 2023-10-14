@@ -1,72 +1,149 @@
-.card {
-    background-color: rgba(222, 156, 200, 0.399);
-    margin: 20px 0px;
-    border-radius: 5px;
-    box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
-    height: calc(6vh + 1vw);
-    overflow: hidden;
-    transition: box-shadow 0.5s, height 0.5s;
+@media screen and (min-width: 700px) {
+    .card {
+        background-color: rgba(222, 156, 200, 0.399);
+        margin: 20px 0px;
+        border-radius: 5px;
+        box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
+        height: calc(6vh + 1vw);
+        overflow: hidden;
+        transition: box-shadow 0.5s, height 0.5s;
+    }
+
+    .left-card {
+        display: grid;
+        grid-template-columns: [title] 1fr [description] 3fr;
+        grid-template-rows: [header] 100% [body] 0%;
+    }
+
+    .right-card {
+        display: grid;
+        grid-template-columns: [description] 3fr [title] 1fr;
+        grid-template-rows: [header] 100% [body] 0%;
+    }
+
+    .left-card .card-title {
+        text-align: left;
+    }
+
+    .right-card .card-title {
+        text-align: right;
+    }
+
+    .card-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        font-variant: small-caps;
+        font-size: calc(15px + 1vw);
+        color: rgb(255, 255, 255);
+        grid-column: title;
+        grid-row: header;
+        margin: 0px 10px 20px;
+        position: relative;
+    }
+
+    .card-desc {
+        display: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: calc(10px + 1vw);
+        font-weight: bold;
+        grid-column: description;
+        grid-row: body;
+        margin: 10px 10px 5px 15px;
+        color: rgb(251, 254, 255);
+        text-align: justify;
+    }
+
+    .card:hover {
+        box-shadow: 4px 4px rgb(204, 174, 23);
+        height: calc(22vh + 2vw);
+        transition: box-shadow 0.3s, height 0.3s;
+    }
+
+    .left-card:hover {
+        grid-template-rows: [header] 1fr [body] 3fr;
+    }
+
+    .right-card:hover {
+        grid-template-rows: [header] 1fr [body] 3fr;
+    }
+
+    .card:hover .card-desc {
+        display: block;
+    }
 }
 
-.left-card {
-    display: grid;
-    grid-template-columns: [title] 1fr [description] 3fr;
-    grid-template-rows: [header] 100% [body] 0%;
-}
+@media screen and (max-width: 700px) {
+    .card {
+        background-color: rgba(222, 156, 200, 0.399);
+        margin: 20px 0px;
+        border-radius: 5px;
+        box-shadow: 4px 4px rgba(187, 75, 163, 0.702);
+        height: calc(6vh + 1vw);
+        overflow: hidden;
+        transition: box-shadow 0.5s, height 0.5s;
+    }
 
-.right-card {
-    display: grid;
-    grid-template-columns: [description] 3fr [title] 1fr;
-    grid-template-rows: [header] 100% [body] 0%;
-}
+    .left-card {
+        display: grid;
+        grid-template-columns: [title] 1fr [description] 3fr;
+        grid-template-rows: [header] 100% [body] 0%;
+    }
 
-.left-card .card-title {
-    text-align: left;
-}
+    .right-card {
+        display: grid;
+        grid-template-columns: [description] 3fr [title] 1fr;
+        grid-template-rows: [header] 100% [body] 0%;
+    }
 
-.right-card .card-title {
-    text-align: right;
-}
+    .left-card .card-title {
+        text-align: left;
+    }
 
-.card-title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    font-variant: small-caps;
-    font-size: calc(15px + 1vw);
-    color: rgb(255, 255, 255);
-    grid-column: title;
-    grid-row: header;
-    margin: 0px 10px 20px;
-    position: relative;
-}
+    .right-card .card-title {
+        text-align: right;
+    }
 
-.card-desc {
-    display: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: calc(10px + 1vw);
-    font-weight: bold;
-    grid-column: description;
-    grid-row: body;
-    margin: 10px 10px 5px 15px;
-    color: rgb(251, 254, 255);
-    text-align: justify;
-}
+    .card-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        font-variant: small-caps;
+        font-size: calc(15px + 1vw);
+        color: rgb(255, 255, 255);
+        grid-column: title;
+        grid-row: header;
+        margin: 0px 10px 20px;
+        position: relative;
+    }
 
-.card:hover {
-    box-shadow: 4px 4px rgb(204, 174, 23);
-    height: calc(22vh + 2vw);
-    transition: box-shadow 0.3s, height 0.3s;
-}
+    .card-desc {
+        display: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: calc(10px + 1vw);
+        font-weight: bold;
+        grid-column: description;
+        grid-row: body;
+        margin: 10px 10px 5px 15px;
+        color: rgb(251, 254, 255);
+        text-align: left;
+    }
 
-.left-card:hover {
-    grid-template-rows: [header] 1fr [body] 3fr;
-}
+    .card:hover, .card:active {
+        box-shadow: 4px 4px rgb(204, 174, 23);
+        height: calc(40vh + 2vw);
+        transition: box-shadow 0.3s, height 0.3s;
+    }
 
-.right-card:hover {
-    grid-template-rows: [header] 1fr [body] 3fr;
-}
+    .left-card:hover, .left-card:active {
+        grid-template-rows: [header] 1fr [body] 3fr;
+    }
 
-.card:hover .card-desc {
-    display: block;
+    .right-card:hover, .right-card:active {
+        grid-template-rows: [header] 1fr [body] 3fr;
+    }
+
+    .card:hover .card-desc {
+        display: block;
+    }
 }
