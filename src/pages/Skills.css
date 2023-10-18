@@ -44,6 +44,13 @@
         flex-direction: column;
         align-content: flex-start; */
     }
+
+    #hello-world-python {
+        height: 250px;
+        /* margin-left: 10px; */
+        float: left;
+        opacity: 0.8;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -91,5 +98,11 @@
         /* display: inline-flex;
         flex-direction: column;
         align-content: flex-start; */
+    }
+
+    #hello-world-python {
+        height: 120px;
+        opacity: 0.9;
+        float: left;
     }
 }

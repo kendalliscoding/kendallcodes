@@ -117,14 +117,26 @@
         position: relative;
     }
 
-    .card-desc {
+    .left-card .card-desc {
         display: none;
         font-family: 'Courier New', Courier, monospace;
         font-size: calc(10px + 1vw);
         font-weight: bold;
         grid-column: description;
         grid-row: body;
-        margin: 10px 10px 5px 15px;
+        margin: 0px 10px 5px 0px;
+        color: rgb(251, 254, 255);
+        text-align: left;
+    }
+
+    .right-card .card-desc {
+        display: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: calc(10px + 1vw);
+        font-weight: bold;
+        grid-column: description;
+        grid-row: body;
+        margin: 10px 0px 5px 15px;
         color: rgb(251, 254, 255);
         text-align: left;
     }

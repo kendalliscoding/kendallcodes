@@ -8,6 +8,10 @@
         "description": "I love Pytest's functional approach, the clear test results formatting, and its fixtures."
     },
     {
+        "title": "flask",
+        "description": "What's not to love? You can get a Flask API up and running fairly quickly and writing view functions feels pretty intuitive for me."
+    },
+    {
         "title": "html",
         "description": "Fun fact - I started messing around with HTML when I got a tumblr in high school! I love how accessibility is a big part of HTML and it's been fun learning about head tags for search engine optimization (SEO)."
     },
@@ -22,10 +26,6 @@
     {
         "title": "react",
         "description": "I really love React! Working with component-based elements makes the development process so nice!"
-    },
-    {
-        "title": "flask",
-        "description": "What's not to love? You can get a Flask API up and running fairly quickly and writing view functions feels pretty intuitive for me."
     },
     {
         "title": "sqlalchemy",

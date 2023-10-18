@@ -6,6 +6,7 @@ import SkillCard from "../components/SkillCard";
 import "./Skills.css";
 import skillsList from "../data/skills.json";
 import QuestionBubble from "../components/QuestionBubble";
+import helloWorldPython from "../photos/hello-world-python.GIF";
 
 const Skills = () => {
   const skillCards = skillsList.map((entry, index) => {
@@ -27,6 +28,7 @@ const Skills = () => {
         </section>
         <section>
           <QuestionBubble position="right-bubble" question="What programming languages/tools do you have experience with?" />
+          <img id="hello-world-python" src={helloWorldPython} />
           <div className="cards">{skillCards}</div>
         </section>
       </main>
